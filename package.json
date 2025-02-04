@@ -1,12 +1,13 @@
 {
-  "name": "ts-boilerplate",
+  "name": "number-guessing-game-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "dev": "npx tsx ./src/index.ts"
+    "dev": "npx tsx ./src/index.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
